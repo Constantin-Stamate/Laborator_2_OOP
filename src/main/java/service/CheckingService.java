@@ -1,43 +1,44 @@
-package service ;
+package service;
 
-import entity.Checking ;
-import repository.AccountRepository ;
-import java.math.BigDecimal ;
+import entity.Checking;
+import repository.AccountRepository;
 
-public class CheckingService implements AccountService{
-    AccountRepository accountRepository = new AccountRepository () ;
+import java.math.BigDecimal;
 
-    @Override
-    public void deposit (String id, BigDecimal amount){
-        Checking account = retrieveAccount (id) ;
-        account.setBalance (account.getBalance().add(amount)) ;
-        updateAccount (account) ;
-    }
+public class CheckingService implements AccountService {
+    AccountRepository accountRepository = new AccountRepository();
 
     @Override
-    public void withdraw (String id, BigDecimal amount){
-        Checking account = retrieveAccount (id) ;
-        account.setBalance (account.getBalance().subtract(amount)) ;
-        updateAccount (account) ;
+    public void deposit(String id, BigDecimal amount) {
+        Checking account = retrieveAccount(id);
+        account.setBalance(account.getBalance().add(amount));
+        updateAccount(account);
     }
 
-    public CheckingService (AccountRepository accountRepository){
-        this.accountRepository = accountRepository ;
+    @Override
+    public void withdraw(String id, BigDecimal amount) {
+        Checking account = retrieveAccount(id);
+        account.setBalance(account.getBalance().subtract(amount));
+        updateAccount(account);
     }
 
-    public void createAccount (Checking account){
-        this.accountRepository.createAccount (account) ;
+    public CheckingService(AccountRepository accountRepository) {
+        this.accountRepository = accountRepository;
     }
 
-    public Checking retrieveAccount (String id){
-        return (Checking) this.accountRepository.retrieveAccount (id) ;
+    public void createAccount(Checking account) {
+        this.accountRepository.createAccount(account);
     }
 
-    public void updateAccount (Checking account){
-        this.accountRepository.updateAccount (account) ;
+    public Checking retrieveAccount(String id) {
+        return (Checking) this.accountRepository.retrieveAccount(id);
     }
 
-    public void deleteAccount (String id){
-        this.accountRepository.deleteAccount (id) ;
+    public void updateAccount(Checking account) {
+        this.accountRepository.updateAccount(account);
+    }
+
+    public void deleteAccount(String id) {
+        this.accountRepository.deleteAccount(id);
     }
 }

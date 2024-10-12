@@ -1,24 +1,25 @@
-package entity ;
-import java.math.BigDecimal ;
+package entity;
 
-public class Checking extends Account{
-    private BigDecimal balance ;
+import java.math.BigDecimal;
 
-    public Checking (String id, BigDecimal balance){
-        super (id) ;
-        this.balance = balance ;
+public class Checking extends Account {
+    private BigDecimal balance;
+
+    public Checking(String id, BigDecimal balance) {
+        super(id);
+        this.balance = balance;
     }
 
-    public BigDecimal getBalance (){
-        return this.balance ;
+    public BigDecimal getBalance() {
+        return this.balance;
     }
 
-    public void setBalance (BigDecimal balance){
-        this.balance = balance ;
+    public void setBalance(BigDecimal balance) {
+        this.balance = balance;
     }
 
     @Override
-    public Account clone (){
-        return new Checking (super.getId(), this.balance) ;
+    public Account clone() {
+        return new Checking(super.getId(), this.balance);
     }
 }

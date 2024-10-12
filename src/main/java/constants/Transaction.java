@@ -1,5 +1,5 @@
-package constants ;
+package constants;
 
-public enum Transaction{
+public enum Transaction {
     DEPOSIT, WITHDRAWAL
 }

@@ -1,5 +1,5 @@
-package constants ;
+package constants;
 
-public enum AccountType{
+public enum AccountType {
     CHECKING, CREDIT
 }

@@ -1,24 +1,25 @@
-package entity ;
-import java.math.BigDecimal ;
+package entity;
 
-public class Credit extends Account{
-    private BigDecimal credit ;
+import java.math.BigDecimal;
 
-    public Credit (String id, BigDecimal credit){
-        super (id) ;
-        this.credit = credit ;
+public class Credit extends Account {
+    private BigDecimal credit;
+
+    public Credit(String id, BigDecimal credit) {
+        super(id);
+        this.credit = credit;
     }
 
-    public BigDecimal getCredit (){
-        return this.credit ;
+    public BigDecimal getCredit() {
+        return this.credit;
     }
 
-    public void setCredit (BigDecimal credit){
-        this.credit = credit ;
+    public void setCredit(BigDecimal credit) {
+        this.credit = credit;
     }
 
     @Override
-    public Account clone (){
-        return new Credit (super.getId(), this.credit) ;
+    public Account clone() {
+        return new Credit(super.getId(), this.credit);
     }
 }
