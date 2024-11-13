@@ -1,5 +1,5 @@
 package constants;
 
 public enum Transaction {
-    DEPOSIT, WITHDRAWAL
+    WITHDRAWAL, DEPOSIT
 }
