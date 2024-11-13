@@ -3,6 +3,7 @@ package entity;
 import java.math.BigDecimal;
 
 public class Checking extends Account {
+
     private BigDecimal balance;
 
     public Checking(String id, BigDecimal balance) {
