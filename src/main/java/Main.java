@@ -62,10 +62,10 @@ public class Main {
     }
 
     public static void finalTest() throws IOException {
-        System.out.println("Account A1234B Balance: " + checkingService.retrieveAccount("A1234B").getBalance());
-        System.out.println("Account E3456F Balance: " + checkingService.retrieveAccount("E3456F").getBalance());
-        System.out.println("Account I5678J Balance: " + checkingService.retrieveAccount("I5678J").getBalance());
-        System.out.println("Account C2345D Credit: " + creditService.retrieveAccount("C2345D").getCredit());
-        System.out.println("Account G4567H Credit: " + creditService.retrieveAccount("G4567H").getCredit());
+        System.out.println("Account A1234B Balance : " + checkingService.retrieveAccount("A1234B").getBalance());
+        System.out.println("Account E3456F Balance : " + checkingService.retrieveAccount("E3456F").getBalance());
+        System.out.println("Account I5678J Balance : " + checkingService.retrieveAccount("I5678J").getBalance());
+        System.out.println("Account C2345D Credit : " + creditService.retrieveAccount("C2345D").getCredit());
+        System.out.println("Account G4567H Credit : " + creditService.retrieveAccount("G4567H").getCredit());
     }
 }
