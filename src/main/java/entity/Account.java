@@ -1,6 +1,7 @@
 package entity;
 
 public abstract class Account {
+
     private String id;
 
     public Account(String id) {
