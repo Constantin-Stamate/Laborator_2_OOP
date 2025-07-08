@@ -59,8 +59,7 @@ src/
 ## ⚙️ How to Run the Project
 
 1. **Install Java (JDK 8 or later)**  
-   Download and install from:  
-   [https://www.oracle.com/java/technologies/javase-downloads.html](https://www.oracle.com/java/technologies/javase-downloads.html)
+   Download and install from: [https://www.oracle.com/java/technologies/javase-downloads.html](https://www.oracle.com/java/technologies/javase-downloads.html)
 
 
 2. **Clone the project**
@@ -101,8 +100,7 @@ src/
 
 ## 👨‍💻 Author
 
-This project was developed by **Constantin Stamate**  
-as part of the **Object-Oriented Programming** course at **UTM**.
+This project was developed by **Constantin Stamate** as part of the **Object-Oriented Programming** course at **UTM**.
 
 - GitHub: [Constantin-Stamate](https://github.com/Constantin-Stamate)
 - Email: [constantinstamate.r@gmail.com](mailto:constantinstamate.r@gmail.com)
