@@ -1,16 +1,16 @@
-# 🏦 Banking System – OOP Lab 2
+# Banking System – OOP Lab 2
 
 This Java application simulates a simple **Banking System**, allowing basic operations on checking and credit accounts. It demonstrates core concepts of **Object-Oriented Programming (OOP)** such as abstraction, encapsulation, inheritance, and modular design.
 
 ---
 
-## 💻 Project Context
+## Project Context
 
 This project was developed as part of the **Object-Oriented Programming** course at the **Technical University of Moldova (UTM)**. It involves working with real-world concepts like accounts and transactions, reading input data from files, and implementing service-based logic.
 
 ---
 
-## 🧩 Structure
+## Structure
 
 The project is organized as follows:
 
@@ -44,7 +44,7 @@ src/
 
 ---
 
-## 🧠 Features Implemented
+## Features Implemented
 
 - Load accounts and transactions from files
 - Store accounts in memory (repository pattern)
@@ -56,7 +56,7 @@ src/
 
 ---
 
-## ⚙️ How to Run the Project
+## How to Run the Project
 
 1. **Install Java (JDK 8 or later)**  
    Download and install from: [https://www.oracle.com/java/technologies/javase-downloads.html](https://www.oracle.com/java/technologies/javase-downloads.html)
@@ -90,7 +90,7 @@ src/
 
 ---
 
-## 📚 Useful Links
+## Useful Links
 
 - [Java Official Documentation](https://docs.oracle.com/en/java/javase/)
 - [OOP Concepts in Java](https://www.geeksforgeeks.org/object-oriented-programming-oops-concept-in-java/)
@@ -98,7 +98,7 @@ src/
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 This project was developed by **Constantin Stamate** as part of the **Object-Oriented Programming** course at **UTM**.
 
